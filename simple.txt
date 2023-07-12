@@ -1,1 +1,9 @@
 this is writen by raj
+
+* for installing nodemon globally
+
+`npm install -g nodemon`
+
+* for nodemon to run live
+
+`npx nodemon index.js`

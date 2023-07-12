@@ -4,8 +4,10 @@ const hostname ="localhost"
 // (request,response,next(optional for local server project))
 
 const server = http.createServer((req,res)=>{
+    console.log(req.url);
+
     // res.end("working")
-    res.end("<h1>hello server</h1>")
+    res.end("<h1>hello server</h1>");
 });
 
 // server.listen(2000,"localhost",() => {}
