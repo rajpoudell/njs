@@ -7,3 +7,5 @@ this is writen by raj
 * for nodemon to run live
 
 `npx nodemon index.js`
+
+// res.end("working") //end of the response of the server
