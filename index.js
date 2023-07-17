@@ -4,10 +4,12 @@ const fs = require("fs")
 
 const PORT =2000;
 const hostname ="localhost"
-// (request,response,next(optional for local server project))
+
 
 
 const home =fs.readFileSync("./index.html","utf-8")
+
+// (request,response,next(optional for local server project))
 const server = http.createServer((req,res)=>{
 console.log(req.url);
 
